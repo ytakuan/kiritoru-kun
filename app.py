@@ -5,8 +5,8 @@ import random
 
 from bottle import route, run, template, request, static_file
 
-host = "49.212.183.61"
-port = "3000"
+host = ""
+port = ""
 images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg']
 
 def make_image_path(image_name):
